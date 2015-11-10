@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal" >
+
+
+
+
+    <fragment
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:name="udacity.moviestage1.MoviesFragment"
+        android:id="@+id/fragment_movies"
+        android:layout_weight="4"
+        tools:context="udacity.moviestage1.MoviesFragment"
+        />
+    <FrameLayout
+        android:id="@+id/movies_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        ></FrameLayout>
+
+
+</LinearLayout>
